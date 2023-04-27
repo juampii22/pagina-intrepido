@@ -1,38 +1,80 @@
-.App {
+body {
   text-align: center;
+  background-image: url(https://phantom-marca.unidadeditorial.es/7c303746880b583fa973970f54e4d206/assets/multimedia/imagenes/2020/11/11/16050903070173.jpg);
+  background-size: 100%;
+  
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.NavBar{
+  color: azure;
+  background-image: url(https://motos.honda.com.co/images/blogs/MejoresCascosMoto.jpg);
+  display: block;
+  background-position: 0% 65%;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  margin-top: -60px;
+  border: 3px solid black;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+button {
+  font-size:10px;
+        font-family:Verdana,Helvetica;
+        font-weight:bold;
+        color:white;
+        background:#f33a2a;
+        border:0px;
+        width:80px;
+        height:19px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+
+h3{
+  font-family:Verdana,Helvetica;
+  font-size: 60px;
+}
+
+.botones-nav{
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  justify-content: space-evenly;
+  background-color:
+}
+
+.carrito{
+  height: 50px;
+  font-size: 20px;
+  display: flex;
+  justify-content: end;
+  margin-top: -40px;
+  
+}
+
+.Controls{
+  height: 80px;
+  width: 50%;
+  display: flex;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
+  margin: auto;
 }
 
-.App-link {
-  color: #61dafb;
+.ButtonCarrito{
+  height: 40px;
+  margin: 20px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.Counter{
+  backdrop-filter: blur(11px);
+  height: 50%;
+  width: 30%;
+  margin-left: 35%;
+  border: 5px solid rgb(7, 7, 7) ;
+}
+
+.saludo{
+  background-color: aliceblue;
+}
+
+.Number{
+  color: aliceblue;
+  margin: 25%;
 }
