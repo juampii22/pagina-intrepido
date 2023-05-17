@@ -16,8 +16,8 @@ body {
   border: 3px solid black;
 }
 
-button {
-  font-size:10px;
+.Option {
+  font-size: 13px;
         font-family:Verdana,Helvetica;
         font-weight:bold;
         color:white;
@@ -29,14 +29,30 @@ button {
 
 
 h3{
-  font-family:Verdana,Helvetica;
+  text-decoration: none;
+  font-family:initial;
   font-size: 60px;
+  backdrop-filter: blur(11px);
+  width: 50%;
+  margin-left: 25%;
 }
 
 .botones-nav{
+  text-decoration: none;
+  font-size: 13px;
+  font-family:Verdana,Helvetica;
+  font-weight:bold;
+  color:white;
+  background:#f33a2a;
+  border:0px;
+  width:80px;
+  height:19px;
+}
+
+.nav{
   display: flex;
   justify-content: space-evenly;
-  background-color:
+
 }
 
 .carrito{
@@ -45,7 +61,6 @@ h3{
   display: flex;
   justify-content: end;
   margin-top: -40px;
-  
 }
 
 .Controls{
@@ -68,6 +83,7 @@ h3{
   width: 30%;
   margin-left: 35%;
   border: 5px solid rgb(7, 7, 7) ;
+  border-radius: 4%;
 }
 
 .saludo{
@@ -78,3 +94,35 @@ h3{
   color: aliceblue;
   margin: 25%;
 }
+
+.ItemImg{
+  width: 60%;
+}
+
+.CardItem{
+  width: 30%;
+  backdrop-filter: blur(16px);
+  border-radius: 4%;
+  border: 5px solid black;
+  align-items: center;
+}
+
+.ListGroup{
+  display: inline-flex;
+  padding: 5px;
+  width: 100%;
+}
+
+.CardDetailItem{
+  margin:auto;
+  width: 60%;
+  backdrop-filter: blur(16px);
+  border-radius: 4%;
+  border: 5px solid black;
+}
+
+.intrepido{
+  text-decoration: none;
+  color: aliceblue;
+}
+
