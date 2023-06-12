@@ -1,11 +1,12 @@
 import CarWidget from "../CartWidget/CartWidget"
 import { NavLink, Link } from "react-router-dom"
+import titulo from "./imagentitulo/titulo.png"
 
 const NavBar = () =>{
     return(
         <nav className="NavBar">
-            <Link to="/" className="intrepido">
-                <h3 >Intrepido</h3>
+            <Link to="/" className="Intrepido">
+                <img src={titulo} alt="Intrepido" className="imgTitulo"/>
             </Link>
             <div className="nav">
                 <NavLink to="/category/guantes" className="botones-nav">Guantes</NavLink>

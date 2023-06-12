@@ -1,0 +1,39 @@
+/* Estilo de formulario */
+.div-checkout{
+    margin-top: 10%;
+}
+
+.Form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 15%;
+  backdrop-filter: blur(16px);
+  border: 5px solid black;
+  margin: auto;
+  color: rgb(9, 9, 9);
+}
+
+.Input {
+  margin-bottom: 20px;
+  font-size: 25px;
+}
+
+
+.form-button {
+  background-color: red;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+label{
+    font-size: 35px;
+}
+
+.form-button:hover {
+  opacity: 0.8;
+}
